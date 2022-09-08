@@ -1,9 +1,8 @@
-USE CUSTOMER_DB;
+use CUSTOMER_DB;
 DELIMITER //
-CREATE PROCEDURE SelectAllCustomers(IN city varchar(40))
+CREATE PROCEDURE SelectAllCustomers (IN city varchar(30))
 BEGIN
-SELECT CUST_NAME from customer where WORKING_AREA = city;
+SELECT CUST_NAME FROM customer WHERE WORKING_AREA = city;
 END //
 DELIMITER ;
-
 CALL SelectAllCustomers('Bangalore');

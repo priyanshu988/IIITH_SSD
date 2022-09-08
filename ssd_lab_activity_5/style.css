@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loginpage {
+    background-color: #BADFE7;
+    color: #388087;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.recordpage {
+    background-color: #BADFE7;
+    color: #388087;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont1 {
+    display: flex;
+
+    justify-content: center;
+}
+
+hr {
+    width: 20%;
+    font-weight: bold;
+    color: #388087;
+    margin-bottom: 30px;
+}
+
+.loginbox {
+    background-color: #f6f6f2;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px grey;
+    width: 400px;
+    height: 350px;
+    color: #0b0c10;
+}
+
+.formdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.formlabel {
+    font-size: medium;
+}
+
+.forminput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #388087;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:hover {
+    border: 1px solid #388087;
+
+}
+
+input[type=password]:hover {
+    border: 1px solid #388087;
+
+}
+table {
+    width: 800px;
+    border: 0;
+}
+tr , th,td{
+    padding: 10px;
+    border: 2px solid;
+    background-color: #f6f6f2;
+}
+.delete {
+    width: 540px;
+    padding: 14px 20px;
+    background-color: red;
+    color: white;
+    font-weight:bold ;
+    border-radius: 5px;
+    border: none;
+}
+th {
+    background-color: #c2edce;
+}
