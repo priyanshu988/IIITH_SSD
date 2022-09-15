@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont1">
+            <h1>Team Form</h1>
+        </div>
+        <div class="cont2">
+            <div class="formdata">
+                <form id="myform" class="formdata1" onsubmit="alertfunction(this);" required>
+                    <div class="entry"><label class="formlabel" for="name">Manager Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="forminput" type="text" id="name" placeholder="Enter Name" required>
+                    </div><br>
+                    <div class="entry"><label class="formlabel" for="email">Group
+                            Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="forminput" type="email" id="email" placeholder="Enter Email" required>
+                    </div><br>
+                    <div class="entry"><label class="formlabel" for="username">Server
+                            Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="forminput" type="text" id="username" placeholder="Enter Server Username" required>
+                    </div><br>
+                    <div class="entry"><label class="formlabel" for="password">Server
+                            Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="forminput" type="password" id="password" placeholder="Enter Server Password">
+                    </div><br>
+                    <div class="entry"><label class="formlabel" for="cpassword">Confirm
+                            Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input onfocusout="passwordcheck()" class="forminput" type="password" id="cpassword" placeholder="Confirm Password">
+                    </div><br>
+                    <div class="entry"><label class="formlabel" for="lead">Team
+                            Lead:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select name="lead" id="lead" class="lead">
+                            <option value="" selected>Select Team Lead</option>
+                            <option value="">Priyanshu</option>
+                            <option value="">Yash</option>
+                            <option value="">Shivani</option>
+
+                        </select>
+                    </div><br>
+                    <div class="entry"><label class="formlabel" for="teammem">Team
+                            Members:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                        <!-- Drop target 1 -->
+                        <div class="droptarget-div">
+                            <p id="drag1" draggable="true" ondragstart="drag(event)">
+                                Riya 
+                            </p>
+                            <p id="drag2" draggable="true" ondragstart="drag(event)">
+                                Raj
+                            </p>
+                            <p id="drag3" draggable="true" ondragstart="drag(event)">
+                                Rahul
+                            </p>
+                            <p id="drag4" draggable="true" ondragstart="drag(event)">
+                                Saharsh
+                            </p>
+                        </div>
+
+                        <!-- drop target 2 -->
+                        <div class="droptarget-div" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div><br>
+                    <button type="submit">Submit</button>
+                    
+                </form>
+                <!-- <button type="submit" onclick="myFunction()">Toggle dark mode</button> -->
+            </div>
+        </div>
+    </div>
+    <script src="myscripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont1 {
+    display: flex;
+    justify-content: center;
+}
+.cont2 {
+    border: 2px solid;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.drag1 {
+    background-color: lightpink;
+}
+.droptarget-div {
+    border: 2px solid;
+    min-height: 100px;
+}
+.fromdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.formdata1 {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
