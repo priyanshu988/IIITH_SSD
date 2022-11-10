@@ -38,7 +38,7 @@ function alertfunction() {
     var cell3 = document.getElementById("username").value;
 
     var cell4 = document.getElementById("lead").value;
-    alert("Manager Name: " + cell1 + "\n" + "Group Email: " + cell2 + "\n" + "Server Username: " + cell3 + "\n" + "Team lead: " + cell4);
+    alert("Manager Name: " + cell1 + "\n" + "Group Email: " + cell2 + "\n" + "Server Username: " + cell3 + "\n" + "Team lead: " + cell4 );
 
 }
 // window.addEventListener('keydown', function (e) {

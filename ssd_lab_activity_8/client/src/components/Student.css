@@ -1,0 +1,75 @@
+.studentpage {
+    color: white;
+    border: 2px solid white;
+    min-height: 80vh;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+.hline {
+    border: 1px solid white;
+}
+.heading {
+    margin-top: 10px;
+}
+.head {
+    display: flex;
+
+}
+
+.head1 {
+    justify-content: center;
+    padding-top: 10px;
+}
+.headbutton
+{
+    margin-right: 0;
+    margin-left: auto;
+    height: 60px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-size: 15px;
+
+}
+.headbutton:hover {
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+
+}
+.center-div {
+    color: black;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.postbtn {
+    width: 300px;
+}
+
+.datatable {
+    width: 100%;
+}
+
+.tablerow {
+    background-color: rgba(254, 254, 254, 0.863);
+    color: black;
+    font-size: 20px;
+}
+.innertable {
+    display: flex;
+    flex-direction: row;
+}
+.table1 {
+    margin-right: 30%;
+}
+
+td.innertd {
+   font-weight: bold;
+}
+td.innertd {
+    display: flex;
+    justify-content: left;
+ }
